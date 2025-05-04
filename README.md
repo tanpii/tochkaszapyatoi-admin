@@ -1,40 +1,17 @@
-# gravity-ui-vite-example
+Менеджерский клиентский сервис был спроектирован с упором на простоту и эффективность, что обусловило выбор классической архитектуры.
 
-Vite template with: typescript, sass and Gravity UI.
+В рамках текущей реализации менеджерского клиентского сервиса были созданы следующие ключевые страницы:
+1.	Таблица книг — страница, на которой отображаются все книги с возможностью выполнения различных действий: удаление книги, выдача книги клиенту и возврат книги обратно в библиотеку (рисунок 24)
+2.	Таблица авторов и жанров — страница для просмотра списка авторов и жанров, с возможностью редактирования информации о ниx.
+3.	Страница внесения данных — страница для добавления новых записей в систему: книги, жанра или автора.
 
-## ⚗️ Technologies list
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/eddbadc0-3d68-43da-9e51-fa9d746c33f4" />
 
-- [Gravity UI](https://gravity-ui.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Sass](https://sass-lang.com/)
-- [ESlint](https://eslint.org/) & [Prettier](https://prettier.io/)
 
-# 🚀 Start using it
-
-To use this template for your app you can run:
+Для локального запуска в режиме разработчика:
 
 ```sh
-npx degit gravity-ui/gravity-ui-vite-example#main my-project
-cd my-project
 
 npm install
 npm run dev
 ```
-
-or
-
-```sh
-yarn degit gravity-ui-vite-example#main my-project
-cd my-project
-
-npm install
-npm run dev
-```
-
-# 📖 Learn More
-
-This package includes scripts and configuration used by [Vite](https://vitejs.dev/).\
-Please refer to its documentation:
-
-- [Getting Started](https://vitejs.dev/guide/) – How to create a new app.
-- [User Guide](https://vitejs.dev/) – How to develop apps bootstrapped with Vite.

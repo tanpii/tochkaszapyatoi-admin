@@ -1,0 +1,9 @@
+$block: '.genreTable';
+
+#{$block} {
+    width: fit-content;
+
+    .g-table__table {
+        width: 600px;
+    }
+} 

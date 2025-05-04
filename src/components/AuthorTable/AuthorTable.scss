@@ -1,0 +1,12 @@
+$block: '.authorTable';
+
+#{$block} {
+    width: fit-content;
+    &__authorImg {
+        width: 100px;
+    }
+
+    .g-table__table {
+        width: 600px;
+    }
+}

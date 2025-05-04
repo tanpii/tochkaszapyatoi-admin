@@ -1,0 +1,11 @@
+$block: '.layout';
+
+#{$block} {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__footer {
+        margin-top: auto;
+    }
+}

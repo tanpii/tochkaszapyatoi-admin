@@ -1,0 +1,20 @@
+$block: '.bookTable';
+
+#{$block} {
+    width: 100%;
+
+    &__bookImg {
+        width: 100px;
+    }
+
+    .g-table__table {
+        width: 100vw;
+    }
+
+    &__alert {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+}

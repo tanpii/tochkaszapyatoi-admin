@@ -1,0 +1,28 @@
+$block: '.pageHeader';
+
+#{$block} {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    padding: 16px 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--g-color-base-background);
+    border-bottom: 1px solid var(--g-color-line-generic);
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+}

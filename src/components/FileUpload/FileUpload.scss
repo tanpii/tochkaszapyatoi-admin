@@ -1,0 +1,16 @@
+$block: '.fileUpload';
+
+#{$block} {
+    display: flex;
+    flex-flow: row;
+    gap: 8px;
+
+    &__input {
+      display: none;
+    }
+
+    &__preview {
+      width: 100px;
+    }
+  }
+  

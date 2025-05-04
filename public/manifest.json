@@ -1,0 +1,24 @@
+{
+  "short_name": "Библиотека",
+  "name": "Админ-панель библиотеки",
+  "icons": [
+    {
+      "src": "admin.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Административная панель для управления библиотекой",
+  "lang": "ru",
+  "orientation": "portrait-primary",
+  "categories": [
+    "books",
+    "library",
+    "admin",
+    "education"
+  ]
+}

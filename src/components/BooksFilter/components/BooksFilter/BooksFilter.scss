@@ -1,0 +1,23 @@
+$block: '.booksFilter';
+
+#{$block} {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    &__filters, &__buttons {
+        display: flex;
+        flex-flow: row;
+        gap: 20px;
+    }
+
+	&__filters {
+        width: 600px;
+    }
+
+    &__genres_container {
+        width: 200px;
+    }
+}

@@ -1,0 +1,15 @@
+$block: '.authorsAndGenresPage';
+
+#{$block} {
+    padding: 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+
+    &__table {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+$block: '.addPage';
+
+#{$block} {
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 80px;
+
+    &__table {
+        overflow: scroll;
+    }
+
+    &__form {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

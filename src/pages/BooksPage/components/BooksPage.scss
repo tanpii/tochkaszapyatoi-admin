@@ -1,0 +1,14 @@
+$block: '.booksPage';
+
+#{$block} {
+    width: 100vw;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+
+    &__table {
+        overflow: scroll;
+    }
+}

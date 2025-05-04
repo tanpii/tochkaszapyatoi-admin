@@ -1,0 +1,15 @@
+$block: '.add-author-form';
+
+#{$block} {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  gap: 16px;
+
+  &__form {
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    gap: 16px;
+  }
+}
